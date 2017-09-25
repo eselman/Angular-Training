@@ -8,6 +8,8 @@ le gustan al usuario.
 Para correr la app:
 1 - Levantar el server usando json server: json-server --watch /server/users.json
 
-2 - Correr la app usando angular-cli: npm run start.
+2 - Correr npm install para bajar las dependencias necesarias.
 
-3 - La aplicacion deberia estar corriendo en http://localhost:4200
+3 - Correr la app usando angular-cli: npm run start.
+
+4 - La aplicacion deberia estar corriendo en http://localhost:4200
