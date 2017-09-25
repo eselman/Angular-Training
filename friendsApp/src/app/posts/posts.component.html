@@ -1,0 +1,6 @@
+<app-parent></app-parent>
+<div *ngIf="user">
+  <h2>{{user.firstName}} {{user.lastName}}</h2>
+  <app-post *ngFor="let post of posts;" [post]="post" [user]="user"></app-post>
+  <button class="addPostButton" (click)="addPost()">Agregar Post</button>
+</div>

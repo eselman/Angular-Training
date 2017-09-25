@@ -1,0 +1,9 @@
+<h1>My Friends App</h1>
+<div *ngIf="user">
+  <nav>
+    <a [routerLink]="['/user', user.id]" routerLinkActive="active">Mi Perfil</a>
+    <a [routerLink]="['/posts', user.id]" routerLinkActive="active">Mis Posts</a>
+    <a [routerLink]="['/friends', user.id]" routerLinkActive="active"> Mis Amigos</a>
+    <button class="logoutButton" (click)="logout()">Cerrar Sesion</button>
+  </nav>
+</div>

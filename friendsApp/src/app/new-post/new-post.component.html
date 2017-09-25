@@ -1,0 +1,15 @@
+<app-parent></app-parent>
+<div class="container" *ngIf="user">
+  <div class="row">
+	  <div class="col-sm-4 col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-body">                
+          <form accept-charset="UTF-8" action="" method="POST">
+            <textarea [(ngModel)]="postContent" class="form-control counted" name="message" placeholder="Escribe tu Mensaje" rows="5" style="margin-bottom:10px;"></textarea>
+            <button class="newPostButton" (click)="savePost()">Guardar Post</button>
+          </form>
+        </div>
+      </div>
+    </div>
+	</div>
+</div>

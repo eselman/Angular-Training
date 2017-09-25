@@ -1,0 +1,4 @@
+<div>
+    <h1 class="friendTitle">{{friend.firstName}} {{friend.lastName}}</h1>
+    <app-post *ngFor="let post of friend.posts;" [post]="post" [user]="friend"></app-post>
+</div>  

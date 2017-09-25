@@ -1,0 +1,4 @@
+<app-parent></app-parent>
+<div *ngIf="user">
+  <app-friend *ngFor="let friend of friends;" [friend]="friend"></app-friend>
+</div>  

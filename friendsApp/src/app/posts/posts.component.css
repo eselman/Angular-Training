@@ -1,0 +1,14 @@
+.addPostButton {
+    font-family: "Roboto", sans-serif;
+    background: #4CAF50;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border: 0;
+    margin: 15px;
+  }
+  
+  .addPostButton:hover,.addPostButton:active,addPostButton:focus {
+    background: #43A047;
+  }
